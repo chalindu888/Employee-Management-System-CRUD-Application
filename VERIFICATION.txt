@@ -1,0 +1,5 @@
+Verified on 2026-10-04 with Amazon Corretto OpenJDK 1.8.0_504 and Maven 3.9.9.
+mvn clean package: BUILD SUCCESS.
+Executable application started on Java 8 with H2.
+HTTP smoke checks passed: POST 201; GET list and ID 200; PUT 200 with updated salary; DELETE 200; validation 400; nonnumeric ID 400; missing GET/PUT/DELETE 404.
+MySQL configuration supplied but not runtime-tested against a MySQL server.
